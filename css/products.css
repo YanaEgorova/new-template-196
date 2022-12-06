@@ -101,7 +101,7 @@
 .product__text-box {
     max-width: 50rem;
     margin-left: auto;
-    background-image: linear-gradient(90deg,#379DFF 0%,#8152E1 100%);
+    background-image: linear-gradient(90deg,var(--third-brand-color), var(--second-brand-color));
     padding: 1rem 1rem 3rem;
 }
 .product__name {
@@ -175,6 +175,7 @@
         top: 10%;
         right: -20%;
         width: 100rem;
+        fill: var(--second-brand-color);
     }
     .hero-products__svg-second {
         display: block;
@@ -183,6 +184,7 @@
         top: -40%;
         left: -40%;
         width: 140rem;
+        fill: var(--third-brand-color);
     }
 }
 

@@ -1,9 +1,11 @@
 .hero__wrapper {
-    background-image: linear-gradient(90deg,#379DFF 0%,#8152E1 100%);
+    background-color: var(--third-brand-color);
 }
 .hero__img {
     display: block;
     width: 100%;
+    fill: var(--third-brand-color);
+    transform: scaleY(-1);
 }
 .hero {
     text-align: center;
@@ -50,6 +52,7 @@
     object-fit: cover;
     border-radius: 50%;
     position: relative;
+  
 }
 .hero-img__block::before {
     display: block;
@@ -104,7 +107,7 @@
 .policy__block--inner {
     max-width: 45rem;
     margin: 0 auto;
-    background-image: linear-gradient(90deg,#379DFF 0%,#8152E1 100%);
+    background-image: linear-gradient(90deg,var(--third-brand-color), var(--second-brand-color));
     padding: 5rem 2rem;
     position: relative;
     border-radius: 2rem;
