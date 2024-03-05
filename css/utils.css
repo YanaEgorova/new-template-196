@@ -187,7 +187,7 @@ body.error-active .error__overlay {
   display: inline-block;
   text-transform: uppercase;
   font-family: var(--title-font);
-  background-color: var(--second-brand-color);
+  background-color: var(--third-brand-color);
   color: var(--sub-text-color);
   border-radius: 1rem;
 } 
